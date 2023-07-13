@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* parent
+h=500px
+w=500px
+color:yellow
+3 children (R,G,B) */
+
+#section1 {
+  height: 500px;
+  width: 500px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+
+.children-1 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.children-2 {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+}
+
+.children-3 {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+
+#section2 {
+  height: 500px;
+  width: 500px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+#section2 .children-1 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+#section2 .children-2 {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+}
+
+#section2 .children-3 {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+
+#section3 {
+  height: 500px;
+  width: 500px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+#section4 {
+  height: 500px;
+  width: 500px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+#section5 {
+  height: 500px;
+  width: 500px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+}
